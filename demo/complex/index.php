@@ -13,7 +13,7 @@
 ?>
 
 <div id="zxxBody" class="zxx_body">
-	<div class="zxx_api_content"><p>稍等...</p></div>
+	<div class="zxx_api_content"><p>稍等...您可以先观摩官方提供的几个复杂demo.</p></div>
 </div>
 
 <?php 
