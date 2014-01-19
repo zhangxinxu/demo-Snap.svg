@@ -30,7 +30,7 @@
             <pre>&lt;svg id="svg" width="100" height="100">&lt;/svg>
             
 &lt;input id="button" type="button" class="zxx_api_button" value="按钮"></pre>
-            <pre></pre>
+            <pre><span class="comment">// some js</span></pre>
             <h3>效果</h3>
             <p>
             	<svg id="svg" width="100" height="100"></svg>                

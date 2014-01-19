@@ -24,7 +24,7 @@ document.body.className = localStorage.bodyClassName || "";
 <div class="zxx_nav">
 	<div class="zxx_constr">
     	<ul class="zxx_nav_ul">
-        	<li class="zxx_nav_li"><a href="../basic/" class="zxx_nav_a<?php echo $arrClass[0]; ?>">基本使用</a></li>
+        	<li class="zxx_nav_li"><a href="../basic/Element.add.php" class="zxx_nav_a<?php echo $arrClass[0]; ?>">基本使用</a></li>
             <li class="zxx_nav_li"><a href="../complex/" class="zxx_nav_a<?php echo $arrClass[1]; ?>">综合示例</a></li>
             <li class="zxx_nav_sp">
             	<a href="javascript:" id="hideHeadFoot" class="zxx_gbtn" title="如果您的浏览器高度不够，可以点击这个按钮增强体验">隐藏头部和尾部</a>&nbsp;
