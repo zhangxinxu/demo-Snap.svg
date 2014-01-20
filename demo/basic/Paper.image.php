@@ -35,13 +35,21 @@
             <p>张含韵降临。</p>
             <pre>&lt;svg id="svg" width="300" height="210">&lt;/svg></pre>
             <pre>var svg = Snap("#svg");
-var c = svg.<mark>paper.image</mark>("mm.jpg", 10, 10, 80, 80);</pre>
+var c = svg.<mark>paper.image</mark>("mm.jpg", 10, 10, 256, 191);</pre>
             <h3>效果</h3>
             <p id="snapShow">
             	<svg id="svg" width="300" height="210"></svg>
             </p>
             <h3>生成HTML</h3>
             <p><img src="../../static/img/demo-snap-svg-6.png"><tip data-content="截图"></tip></p>
+            <h3>注意</h3>
+            <p>
+                用例中的写法会缩放图片
+                <br>
+                使用<pre>paper.image("mm.jpg");</pre>会在原点直接画出原始大小的图片
+                <br>
+                使用<pre>paper.image("mm.jpg",100,200);</pre>会在指定位置画出原始大小的图片
+            </p>
         </div>
     </div>
 </div>
