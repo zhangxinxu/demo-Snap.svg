@@ -20,7 +20,7 @@
     	<div class="zxx_api_content">
         	<h1 class="zxx_api_h1"><sub>Snap.svg demo之</sub><?php echo $key; ?></h1>
         	<h2>Paper.line(x1, y1, x2, y2)</h2>
-        	<p>脸上贴图片。</p>
+        	<p>画直线</p>
             <h3>参数</h3>
             <ul>
             	<li><code>x1</code> 起始<code>x</code>坐标位置。</li>

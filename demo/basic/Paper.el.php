@@ -47,11 +47,14 @@ svg.<mark>paper.el</mark>("circle", {
             <h3>使用2</h3>
             <pre>&lt;svg id="svg">&lt;/svg></pre>
             <pre>var svg = Snap("#svg");
-svg.<mark>paper.el</mark>("circle", {
-    cx: 50,
-    cy: 50,
-    r: 40   
-}); <span class="comment">// 等同于svg.circle(50, 50, 40);</span></pre>
+svg.<mark>paper.el</mark>("rect", {
+    x: 10,
+    y: 20,
+    width: 120,
+    height: 90,
+    rx: 10,
+    ry: 10   
+}); <span class="comment">// 等同于svg.rect(10, 20, 120, 90, 10, 10);</span></pre>
             <h3>返回值</h3>
             <p>对象。</p>
             <h3>效果</h3>
