@@ -26,7 +26,7 @@
             <h3>测试代码</h3>
             <pre>&lt;svg id="svg" width="100" height="100">&lt;/svg></pre>
             <pre>var svg = Snap("#svg");
-svg.paper.circle(50, 50, 40).toDefs();</pre>
+svg.paper.circle(50, 50, 40).<mark>toDefs</mark>();</pre>
             <h3>效果</h3>
             <p>
             	<svg id="svg" width="100" height="100"></svg>                

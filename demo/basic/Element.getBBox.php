@@ -48,7 +48,7 @@
             <pre>&lt;svg id="svg" width="100" height="100">&lt;/svg></pre>
             <pre>var svg = Snap("#svg");
 var c = svg.paper.rect(50, 30, 120, 80, 15);
-console.dir(c.getBBox());    <span class="comment">// 结果见后面的截图</span></pre>
+console.dir(c.<mark>getBBox</mark>());    <span class="comment">// 结果见后面的截图</span></pre>
             <h3>效果</h3>
             <p>下面这个圆角矩形的边界框描述是？</p>
             <p>

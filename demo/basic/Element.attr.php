@@ -40,7 +40,7 @@ var c = svg.paper.circle(50, 50, 40).attr({
     strokeWidth: 2,     <span class="comment">// 驼峰命名...</span>
     "fill-opacity": 0.5 <span class="comment">// 或者短横符连接名称</span>
 });
-console.log(c.attr("fill")); <span class="comment">// #ffcc00</span></pre>
+console.log(c.<mark>attr</mark>("fill")); <span class="comment">// #ffcc00</span></pre>
             <h3>效果</h3>
             <p>
             	<svg id="svg" width="100" height="100"></svg>                

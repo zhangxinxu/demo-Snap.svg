@@ -35,7 +35,7 @@ var c2 = svg.paper.circle(150, 50, 40).attr({
 
 document.getElementById("button").onclick = function() {
     <span class="comment">// 移除红色</span>
-    c1.remove();
+    c1.<mark>remove</mark>();
 };</pre>
             <h3>效果</h3>
             <p>

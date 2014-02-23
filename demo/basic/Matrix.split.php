@@ -38,7 +38,7 @@
 </li></ol>
 			<h3>测试</h3>
             <pre>var m = new Snap.Matrix(1,2,3,4,5,6);
-console.dir(m.split());</pre>
+console.dir(m.<mark>split</mark>());</pre>
             <h3>输出结果</h3>
             <p><img src="../../static/img/demo-snap-svg-33.png"><tip data-content="截图"></tip></p>
         </div>

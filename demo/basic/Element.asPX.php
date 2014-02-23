@@ -32,7 +32,7 @@
             <pre>&lt;svg id="svg" width="100" height="100">&lt;/svg></pre>
             <pre>var svg = Snap("#svg");
 var c = svg.paper.circle(50, 50, 40);
-console.log(c.asPX("cx"));    <span class="comment">// 50</span></pre>
+console.log(c.<mark>asPX</mark>("cx"));    <span class="comment">// 50</span></pre>
             <h3>效果</h3>
             <p>
             	<svg id="svg" width="100" height="100"></svg>                

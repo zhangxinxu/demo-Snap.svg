@@ -36,7 +36,7 @@
             <pre>var svg = Snap("#svg");
 var c = svg.paper.circle(50, 50, 40).attr({
     fill: "#f00"        <span class="comment">// 红色</span>
-}).hover(function() {
+}).<mark>hover</mark>(function() {
     <span class="comment">// 移入</span>
     this.animate({
         fill: "#00f"    <span class="comment">// 蓝色</span>

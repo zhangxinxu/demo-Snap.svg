@@ -55,7 +55,7 @@
             <h3>使用</h3>
             <pre>&lt;svg id="svg" width="100" height="100">&lt;/svg></pre>
             <pre>var svg = Snap("#svg");
-var c1 = svg.paper.circle(50, 50, 40).<code>drag()</code>;</pre>
+var c1 = svg.paper.circle(50, 50, 40).<mark>drag()</mark>;</pre>
             <h3>效果</h3>
             <p>点击下面的圈圈显示存储的内容：</p>
             <p>

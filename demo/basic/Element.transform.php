@@ -47,7 +47,7 @@
             <pre>&lt;svg id="svg" width="100" height="100">&lt;/svg></pre>
             <pre>var svg = Snap("#svg");
 var c = svg.paper.circle(50, 50, 40);
-console.dir(c.transform());</pre>
+console.dir(c.<mark>transform</mark>());</pre>
             <h3>效果</h3>
             <p>
             	<svg id="svg" width="100" height="100"></svg>                

@@ -23,7 +23,7 @@
         	<p>返回亮度滤镜的SVG标记字符串。</p>
             <h3>参数</h3>
             <ul>
-            	<li><code>amount</code> 数值。范围<code>0~1</code>, 表示滤镜数量。这里可以理解为亮度。<code>0</code>表示全黑，<code>1</code>表示没有变化，真实亮度。</li>
+            	<li><code>amount</code> 数值。范围<code>0~?</code>, 表示滤镜数量。这里可以理解为亮度。<code>0</code>表示全黑，<code>1</code>表示没有变化，真实亮度，数值越往上越来亮。</li>
             </ul>
             <h3>返回值</h3>
             <p>字符串。表示滤镜。</p>
