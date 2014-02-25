@@ -81,6 +81,10 @@ pre .comment { color: green; }
 .zxx_api_content .supplement { margin-left: 20px; color: #999; }
 .zxx_api_content img { max-width: 100%; }
 
+.zxx_api_compl_x { overflow: hidden; _zoom: 1; }
+.zxx_api_compl_li { width: 360px; height: 300px; text-align: center; font-size: 14px; text-decoration: none; color: #666; float: left; font-family: 'microsoft yahei'; }
+.zxx_api_compl_img { width: 320px; height: 240px; margin: 0 auto 5px; border-radius: 8px; overflow: hidden; }
+
 @media screen and (max-height:800px){
 	.zxx_api_title { margin-top: 12px; font-size: 12px; }
 	.zxx_api_a { line-height: 22px; font-size: 12px; }
