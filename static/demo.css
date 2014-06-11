@@ -45,7 +45,7 @@ img { border: 0; }
 .zxx_slide_method:before { content: '»'; margin-right: 5px; color: #666; }
 .zxx_slide_on, .zxx_slide_on:hover { background-color: #34538b; color: #fff; position: relative; }
 .zxx_slide_on::before { color: #fff; }
-.zxx_pay { padding: 20px 0 20px 25px; }
+.zxx_pay { padding: 20px 0 20px 12px; }
 
 .zxx_api_detail { position: absolute; height: 100%; left: 304px; right: 0; overflow: auto; }
 .zxx_api_content { padding: 20px; cursor: default; line-height: 1.5; }
