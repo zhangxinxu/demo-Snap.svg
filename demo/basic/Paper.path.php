@@ -43,10 +43,10 @@
                         <tr><td>L</td><td>lineto &emsp;画线到</td><td>(x y)+</td></tr>
                         <tr><td>H</td><td>horizontal lineto &emsp;水平线到</td><td>x+</td></tr>
                         <tr><td>V</td><td>vertical lineto &emsp;垂直线到</td><td>y+</td></tr>
-                        <tr><td>C</td><td>curveto &emsp;曲线到</td><td>(x1 y1 x2 y2 x y)+</td></tr>
-                        <tr><td>S</td><td>smooth curveto &emsp;光滑曲线到</td><td>(x2 y2 x y)+</td></tr>
-                        <tr><td>Q</td><td>quadratic Bézier curveto &emsp;标准贝塞尔曲线到</td><td>(x1 y1 x y)+</td></tr>
-                        <tr><td>T</td><td>smooth quadratic Bézier curveto &emsp;光滑标准贝塞尔曲线到</td><td>(x y)+</td></tr>
+                        <tr><td>C</td><td>curveto &emsp;三次贝塞尔曲线到</td><td>(x1 y1 x2 y2 x y)+</td></tr>
+                        <tr><td>S</td><td>smooth curveto &emsp;光滑三次贝塞尔曲线到</td><td>(x2 y2 x y)+</td></tr>
+                        <tr><td>Q</td><td>quadratic Bézier curveto &emsp;二次贝塞尔曲线到</td><td>(x1 y1 x y)+</td></tr>
+                        <tr><td>T</td><td>smooth quadratic Bézier curveto &emsp;光滑二次贝塞尔曲线到</td><td>(x y)+</td></tr>
                         <tr><td>A</td><td>elliptical arc &emsp;椭圆弧</td><td>(rx ry x-axis-rotation large-arc-flag sweep-flag x y)+</td></tr>
                         <tr><td>R</td><td><a href="http://en.wikipedia.org/wiki/Catmull–Rom_spline#Catmull.E2.80.93Rom_spline">Catmull-Rom curveto</a>* &emsp;Catmull-Rom曲线</td><td>x1 y1 (x y)+</td></tr>
                     </tbody>
