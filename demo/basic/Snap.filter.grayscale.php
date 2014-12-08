@@ -23,7 +23,7 @@
         	<p>返回灰度滤镜的SVG标记字符串。</p>
             <h3>参数</h3>
             <ul>
-            	<li><code>amount</code> 数值。范围<code>0~1</code>, 表示滤镜数量。可以理解为黑白滤镜。<code>0</code>表示完全黑白，<code>1</code>表示真实色彩。</li>
+            	<li><code>amount</code> 数值。范围<code>0~1</code>, 表示滤镜数量。可以理解为黑白滤镜。<code>1</code>表示完全黑白，<code>0</code>表示真实色彩。</li>
             </ul>
             <h3>返回值</h3>
             <p>字符串。表示滤镜。</p>
