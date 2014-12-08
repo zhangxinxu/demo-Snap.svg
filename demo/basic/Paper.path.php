@@ -20,7 +20,7 @@
     	<div class="zxx_api_content">
         	<h1 class="zxx_api_h1"><sub>Snap.svg demo之</sub><?php echo $key; ?></h1>
         	<h2>Paper.path([pathString])</h2>
-        	<p>脸上贴图片。</p>
+        	<p>画路径</p>
             <h3>参数</h3>
             <ul>
             	<li><code>pathString</code> SVG格式路径字符串。</li>
@@ -69,6 +69,20 @@ var c = svg.<mark>paper.path</mark>("M10 10L90 90").attr({
             </p>
             <h3>生成HTML</h3>
             <p><img src="../../static/img/demo-snap-svg-8.png"><tip data-content="截图"></tip></p>
+
+            <h3>使用2</h3>
+            <pre>&lt;svg id="svg" width="800" height="600">&lt;/svg></pre>
+            <pre>var svg2 = Snap("#svg2");
+var c = svg.<mark>paper.path</mark>("M0,300 Q200,50 400,300 T800,300").attr({
+    stroke: "#000",
+    strokeWidth: 5,
+    fill: "#fff"
+});
+<span class="comment">// 画一条比较复杂的曲线</span></pre>
+            <h3>效果</h3>
+            <p id="snapShow">
+                <svg id="svg2" width="800" height="600"></svg>
+            </p>
         </div>
     </div>
 </div>
@@ -84,6 +98,13 @@ var c = svg.paper.path("M10 10L90 90").attr({
 });
 // 画一条对角线:
 // 移动到 10,10, 画线至 90,90
+
+var svg = Snap("#svg2")
+svg.paper.path("M0,300 Q200,50 400,300 T800,300").attr({
+    stroke: "#000",
+    strokeWidth: 5,
+    fill: "#fff"
+});
 </script>
 </body>
 </html>
