@@ -19,7 +19,7 @@
     <div class="zxx_api_detail">
     	<div class="zxx_api_content">
         	<h1 class="zxx_api_h1"><sub>Snap.svg demo之</sub><?php echo $key; ?></h1>
-        	<h2>Element.inAnim()</h2>
+        	<h2>Element.innerSVG()</h2>
             <p>返回元素内容的SVG代码。近似于HTML中的<code>innerHTML</code>方法。</p>
             <h3>返回值</h3>
             <p>字符串。SVG字符串代码。</p>
